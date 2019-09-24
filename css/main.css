@@ -1,0 +1,271 @@
+body,
+header {
+  margin: 0;
+  padding: 0;
+
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  width: 100%;
+  background-image: url(../img/header-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-top: 70px;
+  padding-bottom: 236px;
+}
+
+main {
+  max-width: 1170px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 150px;
+}
+
+img {
+  width: 100%;
+}
+
+.nav-wrapper {
+  max-width: 1580px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+  padding-left: 90px;
+  padding-right: 90px;
+}
+
+a {
+  text-decoration: none;
+}
+.nav {
+  padding-top: 13px;
+}
+
+.nav-item {
+  text-decoration: none;
+  color: #fff;
+  padding-right: 40px;
+  text-transform: uppercase;
+}
+
+.nav-item-special {
+  text-decoration: none;
+  color: #2f2f2f;
+  padding-right: 0;
+  text-transform: uppercase;
+  background-color: #fff;
+  border-radius: 25px;
+  padding: 15px 10px;
+}
+
+.logo {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  font-size: 36px;
+}
+
+.logo::after {
+  content: ".";
+  position: relative;
+  top: -20px;
+  left: 5px;
+}
+
+.nav-item:hover,
+.nav-item-special:hover {
+  color: rgba(0, 255, 179, 0.933);
+}
+
+.title-wrapper {
+  margin-top: 138px;
+  text-align: center;
+  color: #fff;
+}
+
+.sub-title {
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 0.29px;
+}
+.title {
+  margin-top: 42px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 58px;
+  font-weight: 800;
+}
+
+.sidebar {
+  width: 360px;
+  height: 1000px;
+  /*background-color: black;*/
+}
+
+.blogs {
+  max-width: 770px;
+}
+
+.post a {
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.post {
+  margin-bottom: 80px;
+}
+
+.post-detalis {
+  margin-top: 35px;
+  margin-bottom: 12px;
+  color: #bebebe;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.post-title a {
+  color: #1d1d1d;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 35px;
+}
+
+.post-text {
+  margin-top: 30px;
+  color: #8d8d8d;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.post-readmore a {
+  color: #000000;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.99px;
+}
+
+.post-text p {
+  margin: 0;
+  padding: 0;
+}
+
+.pagination a {
+  padding-right: 10px;
+  color: #3e3e3e;
+  font-size: 20px;
+  font-weight: 700;
+  /* Text style for "Последняя" */
+  letter-spacing: 1px;
+}
+
+.sidebar-screach input[type="text"] {
+  width: 350px;
+  height: 60px;
+  padding-left: 25px;
+  border: 1px solid #dfdfdf;
+  background-color: #ffffff;
+}
+
+::placeholder {
+  font-size: 17px;
+}
+
+.sidebar p {
+  color: #1d1d1d;
+  font-size: 24px;
+  font-weight: 700;
+  text-transform: uppercase;
+  /* Text style for "Категории" */
+  letter-spacing: 1.2px;
+}
+
+.sidebar-nav a {
+  text-decoration: none;
+  color: #767676;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 38px;
+  display: block;
+}
+
+.sidebar-record {
+  margin-top: 90px;
+}
+
+.record {
+  margin-top: 40px;
+  display: flex;
+}
+
+.record-img img {
+  object-fit: cover;
+  object-position: bottom;
+  width: 100px;
+  height: 100px;
+}
+
+.record-description {
+  margin-left: 20px;
+}
+
+.record-title a {
+  color: #3e3e3e;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 26px;
+  display: block;
+}
+
+.record-date {
+  color: #8a8a8a;
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 25px;
+}
+
+.sidebar-tag {
+  margin-top: 100px;
+}
+
+.tag-cloud {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.tag-cloud li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.94px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #6a6a6a;
+  border: 1px solid;
+  border-color: #e7e7e7;
+  padding: 10px 20px;
+  transition: all 0.3s ease-in-out;
+  display: block;
+}
+
+.tag-cloud li {
+  margin-right: 10px;
+  margin-bottom: 20px;
+}
+
+.tag-cloud li a:hover {
+  background-color: #ff5963;
+  color: #ffffff;
+}
+
+a:hover {
+  color: #ff5963;
+}
